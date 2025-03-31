@@ -85,14 +85,17 @@ class MainApp extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 150,
+                  height: 30,
                 ),
                 Container(
                   child:
                       Center(child: Text("Da heisst es: Übern, Üben,Üben...")),
-                  color: const Color.fromARGB(255, 188, 70, 125),
-                  height: 130,
-                  width: 290,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pink,
+                  ),
+                  margin: EdgeInsets.all(90.0),
+                  padding: EdgeInsets.all(65.0),
                 ),
               ],
             )
