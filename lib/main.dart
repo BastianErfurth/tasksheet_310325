@@ -39,7 +39,16 @@ class MainApp extends StatelessWidget {
                   width: 280,
                 ),
                 SizedBox(
-                  height: 16,
+                  height: 25,
+                ),
+                Divider(
+                  thickness: 6,
+                  indent: 16,
+                  endIndent: 16,
+                  color: Colors.lightBlue,
+                ),
+                SizedBox(
+                  height: 20,
                 ),
                 Row(
                   children: [
@@ -52,7 +61,7 @@ class MainApp extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 12,
                     ),
                     Text(
                       " ich bin heute",
@@ -82,7 +91,7 @@ class MainApp extends StatelessWidget {
                   child:
                       Center(child: Text("Da heisst es: Übern, Üben,Üben...")),
                   color: const Color.fromARGB(255, 188, 70, 125),
-                  height: 180,
+                  height: 130,
                   width: 290,
                 ),
               ],
