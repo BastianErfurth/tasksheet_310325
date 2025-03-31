@@ -19,11 +19,17 @@ class MainApp extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  child: Text("es fällt mir sehr schwer"),
+                  child: Center(child: Text("es fällt mir sehr schwer")),
                   color: Colors.green,
                   height: 80,
                   width: 190,
                 ),
+                Container(
+                  child: Text("die Klammern machen mich verrückt"),
+                  color: Colors.yellow,
+                  height: 80,
+                  width: 220,
+                )
               ],
             )
           ],
